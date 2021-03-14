@@ -1,0 +1,160 @@
+.discount {
+    width: 240px;
+    height: 42px;
+    border-radius: 30px;
+    color: red;
+    background-color: red;
+}
+#navigation-menu-header,
+#navigation-menu-header-right {
+    display: flex;
+    flex-direction: row;
+}
+.uk-flag {
+    background-image: url("http://dev.sdwwg.it/assets/gb.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+#country-selector {
+    display: flex;
+    flex-direction: row;
+}
+.fa-angle-down {
+    margin-left: 10px;
+}
+
+.container-button-timer {
+    border: 0!important;
+    padding: 0!important;
+}
+
+.title-container {
+    max-width: unset!important;
+}
+
+#title-first-banner {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    white-space: pre-line;
+}
+#subtitle-first-banner {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 58px;
+    white-space: pre-line;
+}
+.download-button-container {
+    padding-top: 70px;
+    width: 100%;
+}
+.button-subtext {
+    text-align: left;
+    color: #ffffff!important;
+    padding-left: 3%;
+    text-decoration: underline;
+}
+.top-banner-container {
+    height: 500px;
+}
+.first-banner {
+    margin-top: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-content {
+    padding-top: 50px;
+}
+.sub-text-container {
+    text-align: center;
+    padding-top: 20px;
+}
+.sub-text-container:hover {
+    color: #0000ff;
+    text-decoration: underline;
+}
+.three-images-main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.image-and-text-container {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-container {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.text-container:hover {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+#content section:nth-child(odd){
+    background-color: #F8F9FA ;
+}
+#bottom-section-title,
+.text-section-container,
+.image-section-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+.text-slice {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.image-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-shot {
+    width: 171px;
+    height: 134px;
+}
+#main-header-piece {
+    position: fixed;
+    top: 25px;
+    width: 100%;
+}
+
+#right-and-left-paragraph {
+    white-space: pre-line;
+}
+.js-client-ip {
+    text-transform: capitalize;
+}
+#banner-button-top-section {
+    width: 320px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-list-button {
+    margin-left: 10px;
+}
+
+#logo-item {
+    width: 150px;
+}
