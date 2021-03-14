@@ -6,8 +6,8 @@ In order to run the application please  download the contents of this repository
 
 Afterwards please create an .env file (you can use the .example as source). As soon as you created .env file please run the following commands in the same order:
 
-***php artisan key:generate***
-***php artisan cache:clear***
+***php artisan key:generate***\
+***php artisan cache:clear***\
 ***php artisan config:clear***
 
 
