@@ -4,6 +4,13 @@ This app was made using Laravel. Be sure to check their documentation.
 
 In order to run the application please  download the contents of this repository and run composer install from your project's root directory.
 
+Afterwards please create an .env file (you can use the .example as source). As soon as you created .env file please run the following commands in the same order:
+
+***php artisan key:generate***
+***php artisan cache:clear***
+***php artisan config:clear***
+
+
 As soon as you have done the steps above please run ***php artisan serve*** in your run directory.
 
 Now when you visit ***http://localhost:8000/primary*** or ***http://localhost:8000/secondary*** you will be able to see the content of the pages.
