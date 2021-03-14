@@ -13,7 +13,7 @@ Afterwards please create an .env file (you can use the .example as source). As s
 
 As soon as you have done the steps above please run ***php artisan serve*** in your run directory.
 
-Now when you visit ***http://localhost:8000/primary*** or ***http://localhost:8000/secondary*** you will be able to see the content of the pages.
+Now when you visit ***http://localhost:8000/primary/{vouchername}*** or ***http://localhost:8000/secondary/{vouchername}*** you will be able to see the content of the pages.
 
 Please note that there is also a ***http://localhost:8000/pricelist*** page as per requirements.
 
